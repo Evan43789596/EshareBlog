@@ -10,7 +10,6 @@
     <meta name="keywords" content="eshare, ${ret.tags?default(site_keywords)}">
     <meta name="description" content="${ret.summary?default(site_description)}">
 <#include "/default/inc/include.ftl"/>
-    <script type="text/javascript" src = "${base}/assets/vendors/ueditor/ueditor.parse.js"></script>
 </head>
 <body>
 <#include "/default/inc/header.ftl"/>
@@ -178,9 +177,6 @@
 
 <script type="text/javascript">
 
-    $(function(){
-        uParse('#con',{rootPath:'${base}/assets/vendors/ueditor'});
-    });
 
     function goto(pid, user) {
         document.getElementById('chat_text').scrollIntoView();
@@ -229,7 +225,9 @@
             phizBoxId: 'c-phiz'
         });
     });
-
+     $(function(){
+            uParse('#con',{rootPath:'${base}/assets/vendors/ueditor'});
+    });
 </script>
 </body>
 </html>

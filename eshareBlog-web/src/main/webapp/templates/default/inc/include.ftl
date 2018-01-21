@@ -25,7 +25,8 @@ ${site_metas}
 <!-- Favicons -->
 <link rel="apple-touch-icon-precomposed" href="http://eshare.com/dist/images/logo.png"/>
 <link rel="shortcut icon" href="http://eshare.com/dist/images/logo.png"/>
-
+<#--Ueditor-->
+<script type="text/javascript" src = "${base}/assets/vendors/ueditor/ueditor.parse.js"></script>
 <script type="text/javascript">
     var _base_path = '$!{base}';
 
