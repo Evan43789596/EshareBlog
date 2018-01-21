@@ -13,9 +13,10 @@ spring:
             number_format: 0.##
 
     datasource:
-        url: jdbc:mysql://120.77.172.177:3306/evanshare?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
-        username: evan
-        password: EvanLiang0823`
+        url: jdbc:mysql://localhost:3306/evanshare?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: root
+
 
     jpa:
         database: mysql
