@@ -22,7 +22,7 @@
 	<div class="container mode-link">
         <h3 class="t-h3">友情链接</h3>
         <ul class="list-inline">
-            <li><a href="http://www.ppmoney.com" target="_blank" title="PPmoney">PPmoney</a></li>
+            <li><a href="http://throwable.coding.me/" target="_blank" title="Throwable的博客">Throwable的博客</a></li>
             <#list friendLinks as row>
                 <li>
                     <a href="${link.url}" target="_blank" title="${link.remark}">${link.siteName}</a>
