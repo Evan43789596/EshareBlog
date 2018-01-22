@@ -18,7 +18,7 @@
 .top-wrap {position: relative; width: 100%; top: 0; left: 0;}
 
 .logo { float: left; padding: 5px 8px 8px 15px; font-size: 18px; line-height: 20px; height: 50px;}
-.logo img { height: 60px; margin-top: 0px; }
+.logo img { height: 40px; margin-top: 0px; }
 
 .navbar .sign { }
 .navbar .nav .signin, .navbar .nav .signup {
@@ -50,7 +50,7 @@
 .navbar .nav>li .ava:hover { color: #428bca; border-color: #428bca; }
 
 /* main */
-.wrap { position: relative; background-color: #f6f6f6; padding-top: 20px; padding-bottom: 30px; min-height: 520px;}
+.wrap { position: relative; background-color: #303030; padding-top: 20px; padding-bottom: 30px; min-height: 520px;}
 .main { margin: 0;}
 .side-left {}
 .side-right { padding: 0 0 0 15px; margin-left: -15px;}

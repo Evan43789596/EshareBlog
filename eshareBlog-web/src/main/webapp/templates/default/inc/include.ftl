@@ -25,7 +25,7 @@ ${site_metas}
 <!-- Favicons -->
 <link rel="apple-touch-icon-precomposed" href="http://eshare.com/dist/images/logo.png"/>
 <link rel="shortcut icon" href="http://eshare.com/dist/images/logo.png"/>
-<#--Ueditor-->
+<!--Ueditor-->
 <script type="text/javascript" src = "${base}/assets/vendors/ueditor/ueditor.parse.js"></script>
 <script type="text/javascript">
     var _base_path = '$!{base}';
@@ -36,4 +36,28 @@ ${site_metas}
     };
 	
 	window.UEDITOR_HOME_URL = '${base}/assets/vendors/ueditor/';
+</script>
+
+
+<#--禁止复制功能实现-->
+<style type="text/css">
+    /* 最简单的实现禁止复制的方法，采用css方式禁止文字选择，当然这只兼容webkit内核浏览器 */
+    * { -webkit-user-select: none; }
+    p {font-family: 'Microsoft Yahei';font-size: 28px;}
+    input {width: 80%; padding: 10px 20px;}
+</style>
+<#--<h1>本代码在UC手机浏览器上不生效，其它手机浏览器暂未发现问题、PC全部没问题。</h1>
+<p>这是一段示例文字，我无法被选中，也无法按下鼠标右键，即使被选中你也无法复制！</p>
+<input type="text" value="文本框中的文字可以选中，但是无法复制粘贴"/>-->
+<script type="text/javascript">
+    // 禁止右键菜单
+    document.oncontextmenu = function(){ return false; };
+    // 禁止文字选择
+    document.onselectstart = function(){ return false; };
+    // 禁止复制
+    document.oncopy = function(){ return false; };
+    // 禁止剪切
+    document.oncut = function(){ return false; };
+    // 禁止粘贴
+    document.onpaste = function(){ return false; };
 </script>

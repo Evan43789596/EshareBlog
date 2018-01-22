@@ -13,7 +13,7 @@ html { overflow-y: scroll; color: #000; -webkit-text-size-adjust: 100%; -ms-text
 
 /*页面全局*/ 
 body { font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; word-wrap: break-word;}
-body { background-color: #f6f6f6;}
+body { background-color: #ffffff}
 
 /* 触发图片旋转样式 */
 img { height: auto; max-width: 100%;}
@@ -107,9 +107,9 @@ label {font-weight: normal;}
 .btn-xs {padding: 1px 5px;}
 
 /* nav 导航 */
-.navbar-inverse { background: #000000; border-color: #000000; border-radius: 0; margin-bottom: 0; border-bottom: 1px solid #ebebeb; border-top:2px solid #58c0d0;}
+.navbar-inverse { background: #29A7E1; border-color: #29A7E1; border-radius: 0; margin-bottom: 0; border-bottom: 1px solid #ebebeb; border-top:2px solid #58c0d0;}
 
-.navbar-inverse .navbar-nav > li > a { color: #FFFFFF; padding-left: 20px; padding-right: 20px; font-size:18px;}
+.navbar-inverse .navbar-nav > li > a { color: #FFFFFF; padding-left: 10px; padding-right: 0px; font-size:15px;}
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus { color: #abdcd4;}
 
