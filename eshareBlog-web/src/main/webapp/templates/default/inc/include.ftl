@@ -43,8 +43,8 @@ ${site_metas}
 <style type="text/css">
     /* 最简单的实现禁止复制的方法，采用css方式禁止文字选择，当然这只兼容webkit内核浏览器 */
     * { -webkit-user-select: none; }
-    p {font-family: 'Microsoft Yahei';font-size: 28px;}
-    input {width: 80%; padding: 10px 20px;}
+    /*p {font-family: 'Microsoft Yahei';font-size: 28px;}
+    input {width: 80%; padding: 10px 20px;}*/
 </style>
 <#--<h1>本代码在UC手机浏览器上不生效，其它手机浏览器暂未发现问题、PC全部没问题。</h1>
 <p>这是一段示例文字，我无法被选中，也无法按下鼠标右键，即使被选中你也无法复制！</p>

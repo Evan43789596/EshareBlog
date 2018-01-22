@@ -394,7 +394,7 @@ background-color: #ea6f5a;}
 .author img {width: 20px; height: 20px; margin-right: 10px; }
 .single-post-media { margin-top: 20px; margin-bottom: 20px; }
 .single-post-media img { max-width: 98%; display: block; margin-left: auto; margin-right: auto; }
-.post-content { margin: 20px 20px 0; line-height: 28px; padding-bottom: 20px; word-wrap: break-word; position: relative; display: block; overflow: hidden;}
+.post-content { margin: 20px 20px 0; line-height: 28px; padding-bottom: 20px; word-wrap: break-word; position: relative; display: block; overflow: hidden;word-break: break-all;}
 .post-footer { position: relative; height: 50px;background-color: #f9f9f9; padding-top: 5px; border-top: 1px solid #f2f2f2;}
 .post-footer .tip { margin-left: 20px; padding: 9px; float: left; }
 .post-footer .shares { float: left;}
@@ -678,3 +678,6 @@ background-color: #ea6f5a;}
 	min-height: 40px;
 	overflow: hidden;
 }
+/*
+语法高亮部分展示控制*/
+#con table
