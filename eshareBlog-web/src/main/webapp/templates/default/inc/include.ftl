@@ -46,18 +46,57 @@ ${site_metas}
     /*p {font-family: 'Microsoft Yahei';font-size: 28px;}
     input {width: 80%; padding: 10px 20px;}*/
 </style>
-<#--<h1>本代码在UC手机浏览器上不生效，其它手机浏览器暂未发现问题、PC全部没问题。</h1>
-<p>这是一段示例文字，我无法被选中，也无法按下鼠标右键，即使被选中你也无法复制！</p>
-<input type="text" value="文本框中的文字可以选中，但是无法复制粘贴"/>-->
+<#--自定义警告框-->
+<script type="text/javascript">
+    window.alert = function(str)
+    {
+        var shield = document.createElement("DIV");
+        shield.id = "shield";
+        shield.style.position = "absolute";
+        shield.style.left = "50%";
+        shield.style.top = "50%";
+        shield.style.width = "280px";
+        shield.style.height = "150px";
+        shield.style.marginLeft = "-140px";
+        shield.style.marginTop = "-110px";
+        shield.style.zIndex = "25";
+        var alertFram = document.createElement("DIV");
+        alertFram.id="alertFram";
+        alertFram.style.position = "absolute";
+        alertFram.style.width = "280px";
+        alertFram.style.height = "150px";
+        alertFram.style.left = "50%";
+        alertFram.style.top = "50%";
+        alertFram.style.marginLeft = "-140px";
+        alertFram.style.marginTop = "-110px";
+        alertFram.style.textAlign = "center";
+        alertFram.style.lineHeight = "150px";
+        alertFram.style.zIndex = "300";
+        strHtml = "<ul style=\"list-style:none;margin:0px;padding:0px;width:100%\">\n";
+        strHtml += " <li style=\"background:#626262;text-align:left;padding-left:20px;font-size:14px;font-weight:bold;height:25px;line-height:25px;border:1px solid #F9CADE;color:white\">[警告]</li>\n";
+        strHtml += " <li style=\"background:#787878;text-align:center;font-size:12px;height:95px;line-height:95px;border-left:1px solid #F9CADE;border-right:1px solid #F9CADE;color:#DCC722\">"+str+"</li>\n";
+        strHtml += " <li style=\"background:#626262;text-align:center;font-weight:bold;height:30px;line-height:25px; border:1px solid #F9CADE;\"><input type=\"button\" value=\"确 定\" onclick=\"doOk()\" style=\"width:80px;height:20px;background:#626262;color:white;border:1px solid white;font-size:14px;line-height:20px;outline:none;margin-top: 4px\"/></li>\n";
+        strHtml += "</ul>\n";
+        alertFram.innerHTML = strHtml;
+        document.body.appendChild(alertFram);
+        document.body.appendChild(shield);
+        this.doOk = function(){
+            alertFram.style.display = "none";
+            shield.style.display = "none";
+        }
+        alertFram.focus();
+        document.body.onselectstart = function(){return false;};
+    }
+</script>
 <script type="text/javascript">
     // 禁止右键菜单
-    document.oncontextmenu = function(){ return false; };
+    document.oncontextmenu = function(){ alert('禁止复制 , 已拨打110');   return false; };
     // 禁止文字选择
-    document.onselectstart = function(){ return false; };
+    document.onselectstart = function(){ alert('禁止复制 , 已拨打110');    return false; };
     // 禁止复制
-    document.oncopy = function(){ return false; };
+    document.oncopy = function(){ alert('禁止复制 , 已拨打110');    return false; };
     // 禁止剪切
-    document.oncut = function(){ return false; };
+    document.oncut = function(){ alert('禁止复制 , 已拨打110');    return false; };
     // 禁止粘贴
-    document.onpaste = function(){ return false; };
+    document.onpaste = function(){ alert('禁止复制 , 已拨打110');     return false; };
 </script>
