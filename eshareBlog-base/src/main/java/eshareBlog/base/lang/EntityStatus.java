@@ -10,7 +10,7 @@
 package eshareBlog.base.lang;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public interface EntityStatus {

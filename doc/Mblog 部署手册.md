@@ -31,4 +31,4 @@
 
 
   [1]: http://www.graphicsmagick.org/download.html
-  [2]: https://www.zybuluo.com/langhsu/note/165905
+  [2]: https://www.zybuluo.com/evan/note/165905

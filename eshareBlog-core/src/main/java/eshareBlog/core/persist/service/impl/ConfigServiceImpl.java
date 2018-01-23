@@ -26,7 +26,7 @@ import eshareBlog.core.persist.entity.ConfigPO;
 import eshareBlog.core.persist.service.ConfigService;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Service

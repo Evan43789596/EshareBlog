@@ -21,7 +21,7 @@ import org.springframework.stereotype.Component;
  * 	请求：http://eshare.com/index?ord=newest&pn=2
  *  使用：@contents group=x pn=pn ord=ord
  *
- * @author langhsu
+ * @author evan
  *
  */
 @Component

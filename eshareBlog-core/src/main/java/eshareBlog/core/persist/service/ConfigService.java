@@ -15,7 +15,7 @@ import java.util.Map;
 import eshareBlog.core.data.Config;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public interface ConfigService {

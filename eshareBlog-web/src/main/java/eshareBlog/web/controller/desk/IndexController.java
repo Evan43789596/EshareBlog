@@ -20,7 +20,7 @@ import eshareBlog.base.lang.Consts;
 import eshareBlog.web.controller.BaseController;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Controller

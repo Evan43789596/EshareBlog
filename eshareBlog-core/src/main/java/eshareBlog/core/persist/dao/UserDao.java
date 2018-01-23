@@ -14,12 +14,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 import java.util.Set;
 
 /**
- * @author langhsu
+ * @author evan
  */
 public interface UserDao extends JpaRepository<UserPO, Long>, JpaSpecificationExecutor<UserPO> {
     UserPO findByUsername(String username);
@@ -27,7 +28,7 @@ public interface UserDao extends JpaRepository<UserPO, Long>, JpaSpecificationEx
     UserPO findByEmail(String email);
     
     List<UserPO> findTop12ByOrderByFansDesc();
-
+    @Query("from UserPO f1 where f1.username is not null)")
     Page<UserPO> findAllByOrderByIdDesc(Pageable pageable);
 
     List<UserPO> findAllByIdIn(Set<Long> ids);

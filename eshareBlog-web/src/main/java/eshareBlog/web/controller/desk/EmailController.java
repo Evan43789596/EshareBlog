@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author langhsu on 2015/8/14.
+ * @author evan on 2015/8/14.
  */
 @Controller
 @RequestMapping("/email")

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import eshareBlog.web.controller.BaseController;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Controller

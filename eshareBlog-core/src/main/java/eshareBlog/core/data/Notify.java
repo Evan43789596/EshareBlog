@@ -3,7 +3,7 @@ package eshareBlog.core.data;
 import eshareBlog.core.persist.entity.NotifyPO;
 
 /**
- * @author langhsu on 2015/8/31.
+ * @author evan on 2015/8/31.
  */
 public class Notify extends NotifyPO {
     // extend

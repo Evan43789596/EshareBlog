@@ -4,7 +4,7 @@
 package eshareBlog.base.utils;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public class FilePathUtils {

@@ -10,7 +10,7 @@ import eshareBlog.core.persist.service.AttachService;
 import eshareBlog.web.controller.BaseController;
 
 /**
- * @author langhsu on 2015/9/5.
+ * @author evan on 2015/9/5.
  */
 @Controller("mng_attacg_ctl")
 @RequestMapping("/admin/posts/album")

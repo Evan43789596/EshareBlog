@@ -18,7 +18,7 @@ import eshareBlog.core.event.LogEvent;
 import eshareBlog.core.persist.service.LogService;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Component

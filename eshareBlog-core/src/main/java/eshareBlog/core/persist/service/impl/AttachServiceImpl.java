@@ -24,7 +24,7 @@ import eshareBlog.core.persist.service.AttachService;
 import eshareBlog.core.persist.utils.BeanMapUtils;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Service

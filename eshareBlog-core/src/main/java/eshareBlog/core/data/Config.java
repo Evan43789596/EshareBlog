@@ -12,7 +12,7 @@ package eshareBlog.core.data;
 
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public class Config {

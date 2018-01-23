@@ -1,7 +1,7 @@
 package eshareBlog.base.print;
 
 /**
- * @author langhsu on 2015/9/6.
+ * @author evan on 2015/9/6.
  */
 public class Printer {
     private static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger("eshareBlog");

@@ -26,7 +26,7 @@ import eshareBlog.web.controller.desk.Views;
 
 /**
  * Group 主页
- * @author langhsu
+ * @author evan
  *
  */
 @Controller

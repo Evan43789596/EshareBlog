@@ -16,7 +16,7 @@ import java.util.Set;
 import eshareBlog.core.data.Attach;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public interface AttachService {

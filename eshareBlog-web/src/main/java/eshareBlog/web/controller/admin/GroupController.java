@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Controller("mng_group_ctl")

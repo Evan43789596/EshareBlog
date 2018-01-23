@@ -20,7 +20,7 @@ import eshareBlog.core.persist.service.UserEventService;
 import java.util.List;
 
 /**
- * @author langhsu on 2015/8/6.
+ * @author evan on 2015/8/6.
  */
 @Service
 public class UserEventServiceImpl implements UserEventService {

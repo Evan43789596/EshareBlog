@@ -13,7 +13,7 @@ import eshareBlog.core.persist.entity.FeedsPO;
 
 /**
  * 订阅
- * @author langhsu
+ * @author evan
  *
  */
 public class Feeds extends FeedsPO {

@@ -10,7 +10,7 @@
 package eshareBlog.core.persist.service;
 
 /**
- * @author langhsu on 2015/8/14.
+ * @author evan on 2015/8/14.
  */
 public interface VerifyService {
     /**

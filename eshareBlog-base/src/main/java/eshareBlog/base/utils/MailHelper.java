@@ -14,7 +14,7 @@ import javax.mail.internet.MimeMessage;
 import java.util.Map;
 
 /**
- * Created by langhsu on 2017/11/13.
+ * Created by evan on 2017/11/13.
  */
 @Component
 public class MailHelper {

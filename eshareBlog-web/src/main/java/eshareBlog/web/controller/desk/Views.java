@@ -13,7 +13,7 @@ package eshareBlog.web.controller.desk;
  * 
  * 返回页面配置
  * 
- * @author langhsu
+ * @author evan
  *
  */
 public interface Views {

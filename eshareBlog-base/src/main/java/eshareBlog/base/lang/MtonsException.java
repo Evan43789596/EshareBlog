@@ -11,7 +11,7 @@ package eshareBlog.base.lang;
 
 /**
  * 
- * @author langhsu
+ * @author evan
  *
  */
 public class MtonsException extends RuntimeException {

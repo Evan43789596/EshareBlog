@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * shiro权限管理的配置
  * <p>
- * Created by langhsu on 2017/11/13.
+ * Created by evan on 2017/11/13.
  */
 @Configuration
 public class ShiroConfig {

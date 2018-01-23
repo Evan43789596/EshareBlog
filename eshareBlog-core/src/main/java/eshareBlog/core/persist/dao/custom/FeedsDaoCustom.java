@@ -3,7 +3,7 @@ package eshareBlog.core.persist.dao.custom;
 import eshareBlog.core.data.Feeds;
 
 /**
- * Created by langhsu on 2017/9/30.
+ * Created by evan on 2017/9/30.
  */
 public interface FeedsDaoCustom {
     /**

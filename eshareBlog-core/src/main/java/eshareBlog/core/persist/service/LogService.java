@@ -12,7 +12,7 @@ package eshareBlog.core.persist.service;
 import java.util.Date;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public interface LogService {

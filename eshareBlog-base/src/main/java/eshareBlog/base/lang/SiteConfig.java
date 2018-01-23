@@ -1,7 +1,7 @@
 package eshareBlog.base.lang;
 
 /**
- * @author langhsu on 2015/9/5.
+ * @author evan on 2015/9/5.
  */
 public interface SiteConfig {
     /**

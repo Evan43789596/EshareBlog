@@ -4,7 +4,7 @@
 package eshareBlog.base.lang;
 
 /**
- * @author langhsu
+ * @author evan
  * 
  */
 public enum EnumRole {

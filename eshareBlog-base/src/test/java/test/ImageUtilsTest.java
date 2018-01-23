@@ -5,7 +5,7 @@ import eshareBlog.base.utils.ImageUtils;
 import java.io.IOException;
 
 /**
- * @author langhsu on 2015/9/4.
+ * @author evan on 2015/9/4.
  */
 public class ImageUtilsTest {
     public static void main(String[] args) throws InterruptedException, IOException {

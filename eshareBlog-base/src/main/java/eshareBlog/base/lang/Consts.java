@@ -5,7 +5,7 @@ package eshareBlog.base.lang;
 
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public interface Consts {

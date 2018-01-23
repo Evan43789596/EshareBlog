@@ -14,7 +14,7 @@ import eshareBlog.core.persist.entity.AttachPO;
 import java.io.Serializable;
 
 /**
- * @author langhsu
+ * @author evan
  * 
  */
 public class Attach extends AttachPO implements Serializable {

@@ -16,7 +16,7 @@ import eshareBlog.core.data.Group;
 /**
  * TODO: 暂时添加修改都在数据库操作
  * 
- * @author langhsu
+ * @author evan
  *
  */
 public interface GroupService {

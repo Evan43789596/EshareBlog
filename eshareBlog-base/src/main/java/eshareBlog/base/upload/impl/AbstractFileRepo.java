@@ -30,7 +30,7 @@ import eshareBlog.base.upload.FileRepo;
 import eshareBlog.base.upload.FileRepoFactory;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public abstract class AbstractFileRepo implements FileRepo {

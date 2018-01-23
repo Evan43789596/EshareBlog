@@ -19,7 +19,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author langhsu
+ * @author evan
  * 
  */
 public class Post extends PostPO implements Serializable {

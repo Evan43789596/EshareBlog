@@ -13,7 +13,7 @@ package eshareBlog.core.data;
 import java.io.Serializable;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 public class Group implements Serializable {

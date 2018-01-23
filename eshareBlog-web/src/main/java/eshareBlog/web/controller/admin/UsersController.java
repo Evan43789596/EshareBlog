@@ -26,7 +26,7 @@ import eshareBlog.core.persist.service.UserService;
 import eshareBlog.web.controller.BaseController;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Controller("mng_user_ctl")

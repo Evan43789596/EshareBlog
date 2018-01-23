@@ -10,7 +10,7 @@
 package eshareBlog.core.persist.service;
 
 /**
- * @author langhsu on 2015/8/6.
+ * @author evan on 2015/8/6.
  */
 public interface UserEventService {
     /**

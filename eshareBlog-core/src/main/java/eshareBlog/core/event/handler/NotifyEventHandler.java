@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 /**
- * @author langhsu on 2015/8/31.
+ * @author evan on 2015/8/31.
  */
 @Component
 public class NotifyEventHandler implements ApplicationListener<NotifyEvent> {

@@ -21,7 +21,7 @@ import eshareBlog.core.persist.entity.LogPO;
 import eshareBlog.core.persist.service.LogService;
 
 /**
- * @author langhsu
+ * @author evan
  *
  */
 @Service
