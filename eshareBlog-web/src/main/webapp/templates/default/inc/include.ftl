@@ -90,13 +90,13 @@ ${site_metas}
 </script>
 <script type="text/javascript">
     // 禁止右键菜单
-    document.oncontextmenu = function(){ alert('禁止复制 , 已拨打110');   return false; };
+    document.oncontextmenu = function(){  return false; };
     // 禁止文字选择
-    document.onselectstart = function(){ alert('禁止复制 , 已拨打110');    return false; };
+    document.onselectstart = function(){    return false;  };
     // 禁止复制
-    document.oncopy = function(){ alert('禁止复制 , 已拨打110');    return false; };
+    document.oncopy = function(){    return false;  };
     // 禁止剪切
-    document.oncut = function(){ alert('禁止复制 , 已拨打110');    return false; };
+    document.oncut = function(){    return false;  };
     // 禁止粘贴
-    document.onpaste = function(){ alert('禁止复制 , 已拨打110');     return false; };
+    document.onpaste = function(){      return false;  };
 </script>
