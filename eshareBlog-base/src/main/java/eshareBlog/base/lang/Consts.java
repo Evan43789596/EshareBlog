@@ -104,4 +104,6 @@ public interface Consts {
 
 	String EMAIL_TEMPLATE_FORGOT = "forgot.ftl";
 	String EMAIL_TEMPLATE_BIND = "bind.ftl";
+
+
 }

@@ -93,23 +93,30 @@ public class CommentController extends BaseController {
 		Data data = Data.failure("操作失败");
 
 		long pid = ServletRequestUtils.getLongParameter(request, "pid", 0);
-
-		UserPO user = new UserPO();
+			//游客，用于未登录用户
+			UserPO guest = new UserPO();
 		if (!SecurityUtils.getSubject().isAuthenticated()) {
 			//对于没有登录或者注册的用户，直接创建一个虚拟账户,让其可以提交评论
-			user.setName("来自" + request.getRemoteAddr() + "的网友");
-			user.setAvatar(null);
-			user.setRoles(null);
-			user.setStatus(EntityStatus.DISABLED);
-			user.setCreated(Calendar.getInstance().getTime());
-			user = userDao.save(user);
+			guest.setName("来自" + request.getRemoteAddr() + "的网友");
+			//设置默认头像
+			guest.setAvatar(Consts.AVATAR);
+			guest.setStatus(EntityStatus.DISABLED);
+			guest.setCreated(Calendar.getInstance().getTime());
+			guest = userDao.save(guest);
 		}
 		if (toId > 0 && StringUtils.isNotEmpty(text)) {
 			AccountProfile up = getSubject().getProfile();
 			Comment c = new Comment();
 			c.setToId(toId);
 			c.setContent(HtmlUtils.htmlEscape(text));
-			c.setAuthorId(user.getId());
+			//如果当前用户已经登录
+			if(SecurityUtils.getSubject().isAuthenticated()){
+				//设置当前登录作者ID
+				c.setAuthorId(up.getId());
+			}else{
+				//设置当前游客ID
+				c.setAuthorId(guest.getId());
+			}
 			c.setPid(pid);
 
 			commentService.post(c);
