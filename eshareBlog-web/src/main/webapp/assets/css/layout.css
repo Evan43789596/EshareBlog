@@ -14,6 +14,9 @@
 	}
 }
 
+/*对导航栏上的li允许浮动元素*/
+.navbar li {clear:none}
+
 /* header */
 .top-wrap {position: relative; width: 100%; top: 0; left: 0;}
 
