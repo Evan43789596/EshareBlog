@@ -58,8 +58,8 @@ public class ShiroConfig {
     public DefaultWebSessionManager defaultWebSessionManager(CacheManager cacheShiroManager) {
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         sessionManager.setCacheManager(cacheShiroManager);
-        sessionManager.setSessionValidationInterval(1800 * 1000);
-        sessionManager.setGlobalSessionTimeout(900 * 1000);
+        sessionManager.setSessionValidationInterval(3600 * 1000);
+        sessionManager.setGlobalSessionTimeout(3600 * 1000);
         sessionManager.setDeleteInvalidSessions(true);
         sessionManager.setSessionValidationSchedulerEnabled(true);
         Cookie cookie = new SimpleCookie(ShiroHttpSession.DEFAULT_SESSION_ID_NAME);
